@@ -10,8 +10,8 @@ function App() {
   return (
     <QueryClientProvider client={queryClient} className="App">
       <h1>Infinite SWAPI</h1>
-      <InfinitePeople />
-      {/* <InfiniteSpecies /> */}
+      {/* <InfinitePeople /> */}
+      <InfiniteSpecies />
       <ReactQueryDevtools />
     </QueryClientProvider>
   );
